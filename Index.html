@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sivakasi Krishna Crackers</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Sivakasi Krishna Crackers</h1>
+        <p>Your one-stop shop for quality crackers!</p>
+    </header>
+    <main>
+        <section class="products">
+            <div class="product">
+                <img src="https://via.placeholder.com/200?text=Flower+Pots" alt="Flower Pots">
+                <h2>Flower Pots</h2>
+                <p>Price: ₹150</p>
+                <button onclick="addToCart(150)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/200?text=Sky+Shots" alt="Sky Shots">
+                <h2>Sky Shots</h2>
+                <p>Price: ₹300</p>
+                <button onclick="addToCart(300)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/200?text=Sparklers" alt="Sparklers">
+                <h2>Sparklers</h2>
+                <p>Price: ₹50</p>
+                <button onclick="addToCart(50)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/200?text=Chakkars" alt="Chakkars">
+                <h2>Chakkars</h2>
+                <p>Price: ₹120</p>
+                <button onclick="addToCart(120)">Add to Cart</button>
+            </div>
+        </section>
+        <section class="cart">
+            <h2>Cart</h2>
+            <p>Total: ₹<span id="total">0</span></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Sivakasi Krishna Crackers. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
